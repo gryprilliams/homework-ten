@@ -1,0 +1,64 @@
+.contact {
+    width: 980px;
+    height: fit-content;
+    .title {
+        h1 {
+           font-family: Proxima-Condensed;
+           font-size: 40px; 
+        }
+    }
+    .contactcontainer {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        .map {
+            width: 400px;
+            height: 450px;
+            background-image: url(../images/contactmap.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-left: 0;
+            margin-right: 50px;
+        }
+        .form {
+            width: 530px;
+            height: 450px;
+            input {
+                padding-left: 10px;
+            }
+            .txtsub1 {
+                width: 530px;
+                height: 60px;
+                margin-bottom: 20px;
+                background-color: #f5f5f5;
+                border: none;
+            }
+            .txtsub2 {
+                width: 530px;
+                height: 200px;
+                background-color: #f5f5f5;
+                border: none;
+            }
+        }
+        .address {
+            width: 100%;
+            height: fit-content;
+            p {
+                font-family: GillSans;
+                font-size: 18px;
+                margin-bottom: 2px;
+            }
+        }
+        .sendmessage {
+            width: 170px;
+            height: 60px;
+            border: none;
+            border-radius: 20px;
+            background-color: #79addc;
+            color: white;
+            font-family: GillSans;
+            font-size: 16px;
+        }
+    }
+}

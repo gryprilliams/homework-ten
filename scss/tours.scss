@@ -1,0 +1,171 @@
+.tours {
+    max-width: 1280px;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    h2 {
+        color: white;
+        font-family: Proxima-Condensed;
+        font-size: 60px;
+    }
+    p {
+        font-family: GillSans;
+        color: white;
+        font-size: 30px;
+    }
+    .learnmore {
+        cursor: help;
+        width: 133px;
+        height: 40px;
+        background-color: #79addc;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-family: GillSans;
+        font-size: 15px;
+    }
+    .tourhero {
+        width: 981px;
+        height: 200px;
+        background-image: url(../images/tours/tours-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 57px;
+        h1 {
+            font-family: Proxima-Condensed;
+            color: white;
+            font-size: 60px;
+        }
+    }
+    .tourpackages {
+        max-width: 815px;
+        width: 100%;
+        min-height: 1170px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .israel {
+            width: 236px;
+            height: 300px;
+            background-image: url(../images/tours/tour-01.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 57px;
+        }
+        .usa {
+            width: 236px;
+            height: 300px;
+            background-image: url(../images/tours/tour-02.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 57px;
+        }
+        .australia {
+            width: 236px;
+            height: 300px;
+            background-image: url(../images/tours/tour-03.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 57px;
+        }
+        .newzealand {
+            width: 236px;
+            height: 300px;
+            background-image: url(../images/tours/tour-04.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 57px;
+        }
+        .france {
+            width: 236px;
+            height: 300px;
+            background-image: url(../images/tours/tour-05.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 57px;
+        }
+        .egypt {
+            width: 236px;
+            height: 300px;
+            background-image: url(../images/tours/tour-06.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 57px;
+        }
+        .japan {
+            width: 236px;
+            height: 300px;
+            background-image: url(../images/tours/tour-07.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 57px;
+        }
+        .canada {
+            width: 236px;
+            height: 300px;
+            background-image: url(../images/tours/tour-08.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 57px;
+        }
+        .uae {
+            width: 236px;
+            height: 300px;
+            background-image: url(../images/tours/tour-09.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 57px;
+        }
+    }
+}

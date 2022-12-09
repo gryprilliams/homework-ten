@@ -1,0 +1,72 @@
+.about {
+    width: 100%;
+    position: relative;
+}
+
+.aboutheader {
+   max-width: 980px;
+   width: 100%;
+   margin-bottom: 100px;
+   h1 {
+       font-size: 60px;
+   }  
+}
+h1 {
+   font-family: Proxima-Condensed;
+   text-decoration: underline;
+}
+p {
+       font-size: 16px;
+       font-family: GillSans;
+   }
+.clientquotes {
+   max-width: 980px;
+   width: 100%;
+   h1 {
+       font-size: 40px;
+       text-decoration: underline;
+   }
+   .splitdiv {
+       //max-width: 722px;
+       width: 100%;
+       //max-height: 150px;
+       height: 100%;
+       display: flex;
+       align-items: flex-start;
+       justify-content: flex-start;
+       margin-bottom: 40px;
+       position: relative;
+       .client1 {
+           width: 25%;
+           height: 150px;
+           margin: 0;
+           background-image: url(../images/about/about-client-01.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+       }
+       .client2 {
+           width: 25%;
+           height: 150px;
+           margin: 0;
+           background-image: url(../images/about/about-client-02.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+       }
+       .quote {
+           max-width: 455px;
+           width: 75%;
+           margin-left: 10px;
+           .clientname {
+               font-size: 20px;
+               font-family: Proxima-Condensed;
+               color: #79ADDC;
+               position: absolute;
+               bottom: 0;
+               right: 275px;
+           }
+
+       }
+   }
+}

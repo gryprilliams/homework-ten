@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    max-width: 1280px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+.homeLogo {
+    background-image: url(../images/logos/logo-white.png) !important;
+}
+.homeLinks {
+    a {
+        color: white !important;
+    }
+}
+.homeBorder {
+    border-color: white !important;
+}
+
+
+
+
+
+@font-face {
+    font-family: GillSans;
+    src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+    font-family: Proxima-Thin;
+    src: url(../fonts/Proxima-Nova-Thin.otf);
+}
+@font-face {
+    font-family: Proxima-Condensed;
+    src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
