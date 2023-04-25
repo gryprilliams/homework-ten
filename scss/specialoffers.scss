@@ -5,6 +5,7 @@
     display: block;
     align-items: center;
     .title {
+        padding-top: 40px;
         h1 {
             font-family: Proxima-Condensed;
             font-size: 30px;
@@ -27,6 +28,7 @@
         display: flex;
         margin-bottom: 20px;
         position: relative;
+        padding-bottom: 40px;
         .spainpic {
             width: 200px;
             height: 300px;

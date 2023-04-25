@@ -1,8 +1,6 @@
 .tours {
-    max-width: 1280px;
-    width: auto;
-    height: 100%;
-    margin: 0 auto;
+    width: 100%;
+    position: relative;
     h2 {
         color: white;
         font-family: Proxima-Condensed;
@@ -25,9 +23,11 @@
         font-size: 15px;
     }
     .tourhero {
-        width: 981px;
-        height: 200px;
-        background-image: url(../images/tours/tours-header.jpg);
+        max-width: 981px;
+        width: 100%;
+        min-height: 200px;
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tours-header.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -53,7 +53,7 @@
         .israel {
             width: 236px;
             height: 300px;
-            background-image: url(../images/tours/tour-01.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -66,7 +66,7 @@
         .usa {
             width: 236px;
             height: 300px;
-            background-image: url(../images/tours/tour-02.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -79,7 +79,7 @@
         .australia {
             width: 236px;
             height: 300px;
-            background-image: url(../images/tours/tour-03.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -92,7 +92,7 @@
         .newzealand {
             width: 236px;
             height: 300px;
-            background-image: url(../images/tours/tour-04.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-04.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -105,7 +105,7 @@
         .france {
             width: 236px;
             height: 300px;
-            background-image: url(../images/tours/tour-05.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-05.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -118,7 +118,7 @@
         .egypt {
             width: 236px;
             height: 300px;
-            background-image: url(../images/tours/tour-06.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-06.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -131,7 +131,7 @@
         .japan {
             width: 236px;
             height: 300px;
-            background-image: url(../images/tours/tour-07.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-07.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -144,7 +144,7 @@
         .canada {
             width: 236px;
             height: 300px;
-            background-image: url(../images/tours/tour-08.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-08.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -157,7 +157,7 @@
         .uae {
             width: 236px;
             height: 300px;
-            background-image: url(../images/tours/tour-09.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-09.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;

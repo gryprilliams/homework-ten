@@ -1,14 +1,12 @@
 .packages {
-    max-width: 1280px;
-    width: auto;
-    height: 100%;
-    margin: 0 auto;
+    width: 100%;
+    position: relative;
     .israelhero {
         max-width: 981px;
         width: 100%;
-        max-height: 413px;
+        height: 413px;
         height: 100%;
-        background-image: url(../images/tour-01.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-01.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -41,7 +39,7 @@
         .israel1 {
             width: 298px;
             height: 347px;
-            background-image: url(../images/israel-tour-01.jpg);
+            background-image: url(../images/tours/israel-tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -50,7 +48,7 @@
         .israel2 {
             width: 298px;
             height: 347px;
-            background-image: url(../images/israel-tour-02.jpg);
+            background-image: url(../images/tours/israel-tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -59,7 +57,7 @@
         .israel3 {
             width: 298px;
             height: 347px;
-            background-image: url(../images/israel-tour-03.jpg);
+            background-image: url(../images/tours/israel-tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -69,9 +67,9 @@
     .usahero {
         max-width: 981px;
         width: 100%;
-        max-height: 413px;
+        min-height: 413px;
         height: 100%;
-        background-image: url(../images/tour-02.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-02.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -106,29 +104,25 @@
         .usa1 {
             width: 298px;
             height: 347px;
-            background-image: url(../images/usa-tour-01.jpg);
+            background-image: url(../images/tours/usa-tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .usa2 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/usa-tour-02.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/usa-tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .usa3 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/usa-tour-03.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/usa-tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -138,9 +132,9 @@
     .australiahero {
         max-width: 981px;
         width: 100%;
-        max-height: 413px;
+        min-height: 413px;
         height: 100%;
-        background-image: url(../images/tour-03.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-03.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -173,33 +167,27 @@
         flex-wrap: wrap;
         
         .australia1 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/aus-tour-01.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/aus-tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .australia2 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/aus-tour-02.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/aus-tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .australia3 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/aus-tour-03.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/aus-tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -209,9 +197,9 @@
     .newzealandhero {
         max-width: 981px;
         width: 100%;
-        max-height: 413px;
+        min-height: 413px;
         height: 100%;
-        background-image: url(../images/tour-04.jpg);
+        background-image: url(../images/tours/tour-04.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -244,33 +232,27 @@
         flex-wrap: wrap;
         
         .newzealand1 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/nz-tour-01.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/nz-tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .newzealand2 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/nz-tour-02.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/nz-tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .newzealand3 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/nz-tour-03.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/nz-tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -280,9 +262,9 @@
     .francehero {
         max-width: 981px;
         width: 100%;
-        max-height: 413px;
+        min-height: 413px;
         height: 100%;
-        background-image: url(../images/tour-05.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-05.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -315,33 +297,27 @@
         flex-wrap: wrap;
         
         .france1 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/france-tour-01.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/france-tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .france2 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/france-tour-02.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/france-tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .france3 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/france-tour-03.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/france-tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -351,9 +327,9 @@
     .egypthero {
         max-width: 981px;
         width: 100%;
-        max-height: 413px;
+        min-height: 413px;
         height: 100%;
-        background-image: url(../images/tour-06.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-06.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -386,33 +362,27 @@
         flex-wrap: wrap;
         
         .egypt1 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/egypt-tour-01.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/egypt-tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .egypt2 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/egypt-tour-02.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/egypt-tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .egypt3 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/egypt-tour-03.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/egypt-tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -422,9 +392,9 @@
     .japanhero {
         max-width: 981px;
         width: 100%;
-        max-height: 413px;
+        min-height: 413px;
         height: 100%;
-        background-image: url(../images/tour-07.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-07.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -457,33 +427,27 @@
         flex-wrap: wrap;
         
         .japan1 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/japan-tour-01.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/japan-tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .japan2 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/japan-tour-02.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/japan-tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .japan3 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/japan-tour-03.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/japan-tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -493,9 +457,9 @@
     .canadahero {
         max-width: 981px;
         width: 100%;
-        max-height: 413px;
+        min-height: 413px;
         height: 100%;
-        background-image: url(../images/tour-08.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-08.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -528,33 +492,27 @@
         flex-wrap: wrap;
         
         .canada1 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/canada-tour-01.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/canada-tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .canada2 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/canada-tour-02.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/canada-tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .canada3 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/canada-tour-03.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/canada-tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -564,9 +522,9 @@
     .uaehero {
         max-width: 981px;
         width: 100%;
-        max-height: 413px;
+        min-height: 413px;
         height: 100%;
-        background-image: url(../images/tour-09.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours/tour-09.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -599,33 +557,27 @@
         flex-wrap: wrap;
         
         .uae1 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/uae-tour-01.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/uae-tour-01.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .uae2 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/uae-tour-02.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/uae-tour-02.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 20px;
         }
         .uae3 {
-            max-width: 298px;
-            width: 100%;
-            max-height: 347px;
-            height: 100%;
-            background-image: url(../images/uae-tour-03.jpg);
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tours/uae-tour-03.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
